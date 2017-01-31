@@ -103,24 +103,26 @@ h2 {
 
 
 /* Responsive stuff */
-@media    (max-width: 450px) {
+@media    (max-width: 600px) {
 
     header {
     margin:             10px 20px;
     font-size:          20px;
     font-family:        'leaguegothic-regular', sans-serif;
     text-align:         center;
-    font-weight:        bold;
-    font-style:         bold;
     }
 
     body {
-    margin:             10px 20px;
-    font-size:          14px;
+    margin:             10px;
+    font-size:          12px;
     font-family:        'WorkSans-Regular', sans-serif;
-    text-align:         left;
-    font-weight:        normal;
-    font-style:         normal;
+    text-align:         center;
+   
+    }
+    .special {
+    font-family:        'WorkSans-SemiBold';
+    font-size:          14px;
+    margin:             10px 20px;
     }
 
     }
